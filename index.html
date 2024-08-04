@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de Compras</title>
-    <script defer src="./js/app.js"></script>
+    <title>Tienda</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Carrito de Compras</h1>
-    <div id="contenidoCarrito"></div>
+    <div id="app">
+        <header>
+            <h1>Tienda Online</h1>
+        </header>
+        <main>
+            <section id="productos">
+                <h2>Productos Disponibles</h2>
+                <div id="productos-lista"></div>
+            </section>
+            <section id="carrito">
+                <h2>Carrito de Compras</h2>
+                <div id="carrito-lista"></div>
+                <div id="carrito-total">
+                    Total: $<span id="total-amount">0</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./js/app.js"></script>
 </body>
 </html>
