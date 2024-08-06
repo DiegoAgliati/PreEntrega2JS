@@ -141,10 +141,10 @@ function eliminarDelCarrito(idProducto) {
     carrito.eliminarProducto(idProducto);
     actualizarCarrito();
     mostrarProductosDisponibles();
-    actualizarCarrito();    
 }
 
 // Inicializar la página
 console.log("Inicializando la página");
 console.log("Número de productos:", productos.length);
-
+mostrarProductosDisponibles();
+actualizarCarrito();
