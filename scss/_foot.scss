@@ -1,0 +1,32 @@
+footer {
+    background-color: $tercero;
+    color: $fuente;
+    margin-top: auto;
+
+    div.col {
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .footer_nav {
+        li {
+            list-style: none;
+            display: inline;
+            margin-right: 10px;
+        }
+
+        a {
+            color: $link;
+
+            &:visited {
+                color: $link;
+            }
+
+            &:hover {
+                background-color: $link;
+                color: $fuente;
+                border-radius: 5px;
+            }
+        }
+    }
+}

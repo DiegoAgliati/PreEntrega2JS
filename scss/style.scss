@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'reset';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'carrito';
+
+// Media queries
+@media (max-width: 992px) {
+    .producto {
+        width: calc(50% - 0.5rem);
+    }
+}
+
+@media (max-width: 576px) {
+    .producto {
+        width: 100%;
+    }
+}
